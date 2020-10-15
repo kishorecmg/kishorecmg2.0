@@ -1,0 +1,182 @@
+#banner
+{
+    height: 70vh;
+    background-color: var(--banner-bg-colour);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='443' height='53.2' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23fc4445' stroke-width='3.7' stroke-opacity='0.72'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed; 
+    /* background by SVGBackgrounds.com */   
+}
+
+.bannerHeader
+{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    margin: 0;   /* causes margin top */
+}
+
+.aboutPageContainer
+{
+    margin: 0;
+    padding: 5vw;
+}
+
+.aboutPageContainer > p
+{
+    font-size: 20px;
+    margin: 30px auto;
+    text-indent: 40px;
+}
+
+.window
+{
+    margin: 5vw auto;
+    /* border-radius:8px; */
+    box-shadow:0 0 40px -10px #000;
+    width: 80vw;
+    height: 90%;
+    max-height: 100%;
+    max-width:90vw;
+    background:var(--menu-bg-colour);
+    border-radius: 10px;
+}
+
+.chatbox, .chatboxBar, .chatboxFooter
+{
+    padding: 15px;
+    box-sizing:border-box;
+    position:relative
+}
+
+.chatboxBar
+{
+    background-color: gainsboro;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatboxFooter
+{
+    background-color: gainsboro;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.chatboxFooter > div
+{
+    display: inline;
+}
+
+.chatboxFooter > h3
+{
+    text-align: center;
+    font-size: 14px;
+}
+
+.chatboxFooter > div > button
+{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	color:#ffffff;
+    padding:12px 35%;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.chatboxFooter > button:hover 
+{
+	background-color:#476e9e;
+}
+
+.chatboxBar > div
+{
+    margin-left: auto;
+}
+
+.dot
+{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.sent, .answer
+{
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.sent
+{
+    text-align: right;
+    margin-left: auto;
+}
+
+.answer
+{
+    text-align: left;
+    margin-right: auto;
+}
+
+.sent p 
+{ 
+    background-color: #bbffbb; 
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+.answer p 
+{ 
+    background-color: #f3f3f3; 
+    padding: 7px 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.image
+{
+    width: 3em;
+    margin: 0 10px;
+}
+
+.loadingImage
+{
+    margin: 5px auto;
+    display: block;
+}
+
+@media only screen and (max-width: 600px)
+{
+    /* banner */
+    .bannerHeader
+    {
+      font-size: 33px;
+    }
+
+    .dot
+    {
+        display: none;
+    }
+    
+    .sent p, .answer p
+    {
+        padding: 5px 10px;
+    }
+    
+    .image
+    {
+        display: none;
+    }
+}

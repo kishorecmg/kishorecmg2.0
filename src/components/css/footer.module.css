@@ -1,0 +1,64 @@
+.footer
+{
+    margin: 0;
+    padding: 4rem 0rem 2rem;
+    background-color: var(--menu-bg-colour);
+}
+
+.listInline
+{
+    /* position: absolute;
+    left: 50%; */
+    justify-content: center;
+    display: flex;
+} 
+
+.listInlineItem
+{
+    list-style-type: none;
+    margin: 0 3vw;
+}
+
+.footer ul li svg
+{
+    width: 2.5rem;
+    fill: gray;
+}
+
+.footer ul li svg:hover
+{
+    fill: var(--secondary-text-colour);
+}
+
+.footerText
+{
+    margin: 7rem 0 2rem;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .footer
+    {
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .listInline
+    {
+      left: -5px;
+    }
+
+    .footer ul li svg
+    {
+      width: 1.95rem;
+      margin: 0 0 0 1.9vw;
+    }
+
+    .footerText
+    {
+        padding: 2rem 0;
+        margin: 1rem 0;
+    }
+}
