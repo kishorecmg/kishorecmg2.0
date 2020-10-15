@@ -1,30 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome
 
-## Getting Started
+This Github repository contains new source code for my website, [kishorecmg.herokuapp.com](https://kishorecmg.herokuapp.com), the old files can be found in [kishorecmg](https://github.com/kishorecmg/kishorecmg) repository.
 
-First, run the development server:
+Please note that this source code is not how the project is deployed.
 
-```bash
-npm run dev
-# or
-yarn dev
+# Introduction
+
+There are several languages and frameworks involved in this website production. They are,
+  - HTML, CSS and JavaScript
+  - Next JS (Server side React JS powered by Node JS)
+
+Some one on the internet once told,
+
+> In Programming, time spent is actually in,
+> 70% of thinking
+> 25% of error handling and
+> 5% is the actual typing.
+
+And I *guess* and I *realized* that this is not wrong.
+
+### Usage rights
+
+Um, there is nothing constraining you from copying this code. Actually, I will be happy if this one is actually helpful to someone.
+
+
+### How to use the source code to create your own website?
+
+*Some knowledge in HTML, CSS, JavaScript, React JS and Node JS is required beyond this*
+
+Install NPM package manager from [here](https://www.npmjs.com). Node JS would be automatically downloaded along with Node Package Manager. NPM is a amazing JavaScript library that has almost everything that would suit our needs. 
+
+
+Install NextJS library in a seperate folder
+
+```sh
+npm install create-next-app
 ```
+and start coding. It's that simple.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For someone who wants to know from where I learnt Next JS, here are some *noice* websites and YouTube websites that might be helpful for you as well.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists)
+* [freeCodeCamp.org](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos)
+* [Scrimba](https://scrimba.com)
+* And lastly, [Stack Overflow](https://stackoverflow.com)
 
-## Learn More
+Scrimba is an amazing website for learning front-end easily, and this website is really innovative, that you could pause video and directly type your code!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Thank you for reading. More information on the website.
